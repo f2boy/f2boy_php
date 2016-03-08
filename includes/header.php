@@ -48,6 +48,8 @@
                 $nav_urls["/waztd.php"] = "我爱这土地";
                 $nav_urls["/qjj.php"] = "将进酒";
                 $nav_urls["/cw.php"] = "春望";
+                $nav_urls["/sy.php"] = "上邪";
+                $nav_urls["/yqc.php"] = "摸鱼儿·雁丘词";
 
                 foreach ($nav_urls as $x => $x_value) {
                     if ($url == $x) {
