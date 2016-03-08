@@ -43,13 +43,13 @@
             <ul class="nav navbar-nav">
                 <?php
                 $url = $_SERVER["REQUEST_URI"];
-                $nav_urls["/yzyr.php"] = "有朝一日";
-                $nav_urls["/mcdh.php"] = "面朝大海";
-                $nav_urls["/waztd.php"] = "我爱这土地";
-                $nav_urls["/qjj.php"] = "将进酒";
-                $nav_urls["/cw.php"] = "春望";
                 $nav_urls["/sy.php"] = "上邪";
                 $nav_urls["/yqc.php"] = "摸鱼儿·雁丘词";
+                $nav_urls["/qjj.php"] = "将进酒";
+                $nav_urls["/cw.php"] = "春望";
+                $nav_urls["/waztd.php"] = "我爱这土地";
+                $nav_urls["/mcdh.php"] = "面朝大海";
+                $nav_urls["/yzyr.php"] = "有朝一日";
 
                 foreach ($nav_urls as $x => $x_value) {
                     if ($url == $x) {
