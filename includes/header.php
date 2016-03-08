@@ -43,7 +43,11 @@
             <ul class="nav navbar-nav">
                 <?php
                 $url = $_SERVER["REQUEST_URI"];
-                $nav_urls = array("/yzyr.php" => "有朝一日", "/mcdh.php" => "面朝大海", "/waztd.php" => "我爱这土地");
+                $nav_urls["/yzyr.php"] = "有朝一日";
+                $nav_urls["/mcdh.php"] = "面朝大海";
+                $nav_urls["/waztd.php"] = "我爱这土地";
+                $nav_urls["/qjj.php"] = "将进酒";
+                $nav_urls["/cw.php"] = "春望";
 
                 foreach ($nav_urls as $x => $x_value) {
                     if ($url == $x) {
